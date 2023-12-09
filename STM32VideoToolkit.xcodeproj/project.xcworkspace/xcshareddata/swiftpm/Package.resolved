@@ -1,0 +1,19 @@
+{
+  "pins" : [
+    {
+      "identity" : "synthvideo",
+<<<<<<< HEAD
+      "kind" : "localSourceControl",
+      "location" : "/Users/haydenmccabe/Developer/SynthVideo",
+=======
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/HaydenMcCabe/SynthVideo",
+>>>>>>> metal
+      "state" : {
+        "revision" : "0338d31d72c5360a8110b064cd4d092be70bb89f",
+        "version" : "0.7.3"
+      }
+    }
+  ],
+  "version" : 2
+}

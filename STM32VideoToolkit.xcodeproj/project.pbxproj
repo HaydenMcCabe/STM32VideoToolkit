@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB20A85C2A73D29F002C4EEC /* FrameSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20A85B2A73D29F002C4EEC /* FrameSelector.swift */; };
+		AB487ABA295CD9CF002279AB /* STM32VideoToolkitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB487AB9295CD9CF002279AB /* STM32VideoToolkitApp.swift */; };
+		AB487ABE295CD9D1002279AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB487ABD295CD9D1002279AB /* Assets.xcassets */; };
+		AB487AC2295CD9D1002279AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB487AC1295CD9D1002279AB /* Preview Assets.xcassets */; };
+		AB487ACC295CD9D1002279AB /* STM32VideoToolkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB487ACB295CD9D1002279AB /* STM32VideoToolkitTests.swift */; };
+		AB487AD6295CD9D1002279AB /* STM32VideoToolkitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB487AD5295CD9D1002279AB /* STM32VideoToolkitUITests.swift */; };
+		AB487AD8295CD9D1002279AB /* STM32VideoToolkitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB487AD7295CD9D1002279AB /* STM32VideoToolkitUITestsLaunchTests.swift */; };
+		AB78ABDC29DE4BB600609C0B /* ImageSequenceExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78ABDB29DE4BB600609C0B /* ImageSequenceExportView.swift */; };
+		AB8814742A7BEF0700A9DEED /* RotarySliderBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8814732A7BEF0700A9DEED /* RotarySliderBindable.swift */; };
+		ABA58ECB2A15833400D9EC26 /* SynthVideo in Frameworks */ = {isa = PBXBuildFile; productRef = ABA58ECA2A15833400D9EC26 /* SynthVideo */; };
+		ABBC6B692A680F3100D0C332 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC6B682A680F3100D0C332 /* MetalView.swift */; };
+		ABBC6B6B2A6F4D7900D0C332 /* SynthVideoRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC6B6A2A6F4D7900D0C332 /* SynthVideoRenderer.swift */; };
+		ABC7056A2A79EEFB00442DD2 /* RotarySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC705692A79EEFB00442DD2 /* RotarySlider.swift */; };
+		ABDDAB982A6F7CF400755CD0 /* MetalContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAB972A6F7CF400755CD0 /* MetalContentView.swift */; };
+		ABDDAB9D2A6FDF3E00755CD0 /* SynthViewShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAB9C2A6FDF3E00755CD0 /* SynthViewShaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB487AC8295CD9D1002279AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB487AAE295CD9CF002279AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB487AB5295CD9CF002279AB;
+			remoteInfo = STM32VideoToolkit;
+		};
+		AB487AD2295CD9D1002279AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB487AAE295CD9CF002279AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB487AB5295CD9CF002279AB;
+			remoteInfo = STM32VideoToolkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB20A85B2A73D29F002C4EEC /* FrameSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSelector.swift; sourceTree = "<group>"; };
+		AB487AB6295CD9CF002279AB /* STM32VideoToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STM32VideoToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB487AB9295CD9CF002279AB /* STM32VideoToolkitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STM32VideoToolkitApp.swift; sourceTree = "<group>"; };
+		AB487ABD295CD9D1002279AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB487ABF295CD9D1002279AB /* STM32VideoToolkit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = STM32VideoToolkit.entitlements; sourceTree = "<group>"; };
+		AB487AC1295CD9D1002279AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB487AC7295CD9D1002279AB /* STM32VideoToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STM32VideoToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB487ACB295CD9D1002279AB /* STM32VideoToolkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STM32VideoToolkitTests.swift; sourceTree = "<group>"; };
+		AB487AD1295CD9D1002279AB /* STM32VideoToolkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STM32VideoToolkitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB487AD5295CD9D1002279AB /* STM32VideoToolkitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STM32VideoToolkitUITests.swift; sourceTree = "<group>"; };
+		AB487AD7295CD9D1002279AB /* STM32VideoToolkitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STM32VideoToolkitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB78ABDB29DE4BB600609C0B /* ImageSequenceExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSequenceExportView.swift; sourceTree = "<group>"; };
+		AB8814732A7BEF0700A9DEED /* RotarySliderBindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotarySliderBindable.swift; sourceTree = "<group>"; };
+		ABBC6B682A680F3100D0C332 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		ABBC6B6A2A6F4D7900D0C332 /* SynthVideoRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthVideoRenderer.swift; sourceTree = "<group>"; };
+		ABC705692A79EEFB00442DD2 /* RotarySlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RotarySlider.swift; path = STM32VideoToolkit/RotarySlider/RotarySlider.swift; sourceTree = SOURCE_ROOT; };
+		ABDDAB972A6F7CF400755CD0 /* MetalContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalContentView.swift; sourceTree = "<group>"; };
+		ABDDAB9C2A6FDF3E00755CD0 /* SynthViewShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SynthViewShaders.metal; sourceTree = "<group>"; };
+		ABDDAB9E2A6FEFA500755CD0 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB487AB3295CD9CF002279AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA58ECB2A15833400D9EC26 /* SynthVideo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB487AC4295CD9D1002279AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB487ACE295CD9D1002279AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB487AAD295CD9CF002279AB = {
+			isa = PBXGroup;
+			children = (
+				AB487AB8295CD9CF002279AB /* STM32VideoToolkit */,
+				AB487ACA295CD9D1002279AB /* STM32VideoToolkitTests */,
+				AB487AD4295CD9D1002279AB /* STM32VideoToolkitUITests */,
+				AB487AB7295CD9CF002279AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB487AB7295CD9CF002279AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB487AB6295CD9CF002279AB /* STM32VideoToolkit.app */,
+				AB487AC7295CD9D1002279AB /* STM32VideoToolkitTests.xctest */,
+				AB487AD1295CD9D1002279AB /* STM32VideoToolkitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB487AB8295CD9CF002279AB /* STM32VideoToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				AB8814722A7BEEDB00A9DEED /* RotarySlider */,
+				ABDDAB9B2A6FC91F00755CD0 /* MetalFrameView */,
+				AB487AB9295CD9CF002279AB /* STM32VideoToolkitApp.swift */,
+				ABDDAB972A6F7CF400755CD0 /* MetalContentView.swift */,
+				AB20A85B2A73D29F002C4EEC /* FrameSelector.swift */,
+				AB78ABDB29DE4BB600609C0B /* ImageSequenceExportView.swift */,
+				AB487ABD295CD9D1002279AB /* Assets.xcassets */,
+				AB487ABF295CD9D1002279AB /* STM32VideoToolkit.entitlements */,
+				AB487AC0295CD9D1002279AB /* Preview Content */,
+			);
+			path = STM32VideoToolkit;
+			sourceTree = "<group>";
+		};
+		AB487AC0295CD9D1002279AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB487AC1295CD9D1002279AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB487ACA295CD9D1002279AB /* STM32VideoToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB487ACB295CD9D1002279AB /* STM32VideoToolkitTests.swift */,
+			);
+			path = STM32VideoToolkitTests;
+			sourceTree = "<group>";
+		};
+		AB487AD4295CD9D1002279AB /* STM32VideoToolkitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB487AD5295CD9D1002279AB /* STM32VideoToolkitUITests.swift */,
+				AB487AD7295CD9D1002279AB /* STM32VideoToolkitUITestsLaunchTests.swift */,
+			);
+			path = STM32VideoToolkitUITests;
+			sourceTree = "<group>";
+		};
+		AB8814722A7BEEDB00A9DEED /* RotarySlider */ = {
+			isa = PBXGroup;
+			children = (
+				ABC705692A79EEFB00442DD2 /* RotarySlider.swift */,
+				AB8814732A7BEF0700A9DEED /* RotarySliderBindable.swift */,
+			);
+			path = RotarySlider;
+			sourceTree = "<group>";
+		};
+		ABDDAB9B2A6FC91F00755CD0 /* MetalFrameView */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC6B682A680F3100D0C332 /* MetalView.swift */,
+				ABBC6B6A2A6F4D7900D0C332 /* SynthVideoRenderer.swift */,
+				ABDDAB9C2A6FDF3E00755CD0 /* SynthViewShaders.metal */,
+				ABDDAB9E2A6FEFA500755CD0 /* ShaderTypes.h */,
+			);
+			path = MetalFrameView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB487AB5295CD9CF002279AB /* STM32VideoToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB487ADB295CD9D1002279AB /* Build configuration list for PBXNativeTarget "STM32VideoToolkit" */;
+			buildPhases = (
+				AB487AB2295CD9CF002279AB /* Sources */,
+				AB487AB3295CD9CF002279AB /* Frameworks */,
+				AB487AB4295CD9CF002279AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STM32VideoToolkit;
+			packageProductDependencies = (
+				ABA58ECA2A15833400D9EC26 /* SynthVideo */,
+			);
+			productName = STM32VideoToolkit;
+			productReference = AB487AB6295CD9CF002279AB /* STM32VideoToolkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB487AC6295CD9D1002279AB /* STM32VideoToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB487ADE295CD9D1002279AB /* Build configuration list for PBXNativeTarget "STM32VideoToolkitTests" */;
+			buildPhases = (
+				AB487AC3295CD9D1002279AB /* Sources */,
+				AB487AC4295CD9D1002279AB /* Frameworks */,
+				AB487AC5295CD9D1002279AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB487AC9295CD9D1002279AB /* PBXTargetDependency */,
+			);
+			name = STM32VideoToolkitTests;
+			productName = STM32VideoToolkitTests;
+			productReference = AB487AC7295CD9D1002279AB /* STM32VideoToolkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB487AD0295CD9D1002279AB /* STM32VideoToolkitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB487AE1295CD9D1002279AB /* Build configuration list for PBXNativeTarget "STM32VideoToolkitUITests" */;
+			buildPhases = (
+				AB487ACD295CD9D1002279AB /* Sources */,
+				AB487ACE295CD9D1002279AB /* Frameworks */,
+				AB487ACF295CD9D1002279AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB487AD3295CD9D1002279AB /* PBXTargetDependency */,
+			);
+			name = STM32VideoToolkitUITests;
+			productName = STM32VideoToolkitUITests;
+			productReference = AB487AD1295CD9D1002279AB /* STM32VideoToolkitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB487AAE295CD9CF002279AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AB487AB5295CD9CF002279AB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AB487AC6295CD9D1002279AB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB487AB5295CD9CF002279AB;
+					};
+					AB487AD0295CD9D1002279AB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB487AB5295CD9CF002279AB;
+					};
+				};
+			};
+			buildConfigurationList = AB487AB1295CD9CF002279AB /* Build configuration list for PBXProject "STM32VideoToolkit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB487AAD295CD9CF002279AB;
+			packageReferences = (
+				ABA58EC92A15833400D9EC26 /* XCRemoteSwiftPackageReference "SynthVideo" */,
+			);
+			productRefGroup = AB487AB7295CD9CF002279AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB487AB5295CD9CF002279AB /* STM32VideoToolkit */,
+				AB487AC6295CD9D1002279AB /* STM32VideoToolkitTests */,
+				AB487AD0295CD9D1002279AB /* STM32VideoToolkitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB487AB4295CD9CF002279AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB487AC2295CD9D1002279AB /* Preview Assets.xcassets in Resources */,
+				AB487ABE295CD9D1002279AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB487AC5295CD9D1002279AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB487ACF295CD9D1002279AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB487AB2295CD9CF002279AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDDAB982A6F7CF400755CD0 /* MetalContentView.swift in Sources */,
+				ABBC6B692A680F3100D0C332 /* MetalView.swift in Sources */,
+				AB20A85C2A73D29F002C4EEC /* FrameSelector.swift in Sources */,
+				ABC7056A2A79EEFB00442DD2 /* RotarySlider.swift in Sources */,
+				ABDDAB9D2A6FDF3E00755CD0 /* SynthViewShaders.metal in Sources */,
+				AB487ABA295CD9CF002279AB /* STM32VideoToolkitApp.swift in Sources */,
+				AB8814742A7BEF0700A9DEED /* RotarySliderBindable.swift in Sources */,
+				ABBC6B6B2A6F4D7900D0C332 /* SynthVideoRenderer.swift in Sources */,
+				AB78ABDC29DE4BB600609C0B /* ImageSequenceExportView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB487AC3295CD9D1002279AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB487ACC295CD9D1002279AB /* STM32VideoToolkitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB487ACD295CD9D1002279AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB487AD6295CD9D1002279AB /* STM32VideoToolkitUITests.swift in Sources */,
+				AB487AD8295CD9D1002279AB /* STM32VideoToolkitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB487AC9295CD9D1002279AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB487AB5295CD9CF002279AB /* STM32VideoToolkit */;
+			targetProxy = AB487AC8295CD9D1002279AB /* PBXContainerItemProxy */;
+		};
+		AB487AD3295CD9D1002279AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB487AB5295CD9CF002279AB /* STM32VideoToolkit */;
+			targetProxy = AB487AD2295CD9D1002279AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB487AD9295CD9D1002279AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB487ADA295CD9D1002279AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB487ADC295CD9D1002279AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = STM32VideoToolkit/STM32VideoToolkitDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"STM32VideoToolkit/Preview Content\"";
+				DEVELOPMENT_TEAM = 4C62RGVJ39;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = hym.STM32VideoToolkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = STM32VideoToolkit/MetalFrameView/ShaderTypes.h;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB487ADD295CD9D1002279AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = STM32VideoToolkit/STM32VideoToolkit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"STM32VideoToolkit/Preview Content\"";
+				DEVELOPMENT_TEAM = 4C62RGVJ39;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = hym.STM32VideoToolkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = STM32VideoToolkit/MetalFrameView/ShaderTypes.h;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB487ADF295CD9D1002279AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4C62RGVJ39;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hym.STM32VideoToolkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STM32VideoToolkit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STM32VideoToolkit";
+			};
+			name = Debug;
+		};
+		AB487AE0295CD9D1002279AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4C62RGVJ39;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hym.STM32VideoToolkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STM32VideoToolkit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STM32VideoToolkit";
+			};
+			name = Release;
+		};
+		AB487AE2295CD9D1002279AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4C62RGVJ39;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hym.STM32VideoToolkitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = STM32VideoToolkit;
+			};
+			name = Debug;
+		};
+		AB487AE3295CD9D1002279AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4C62RGVJ39;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hym.STM32VideoToolkitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = STM32VideoToolkit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB487AB1295CD9CF002279AB /* Build configuration list for PBXProject "STM32VideoToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB487AD9295CD9D1002279AB /* Debug */,
+				AB487ADA295CD9D1002279AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB487ADB295CD9D1002279AB /* Build configuration list for PBXNativeTarget "STM32VideoToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB487ADC295CD9D1002279AB /* Debug */,
+				AB487ADD295CD9D1002279AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB487ADE295CD9D1002279AB /* Build configuration list for PBXNativeTarget "STM32VideoToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB487ADF295CD9D1002279AB /* Debug */,
+				AB487AE0295CD9D1002279AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB487AE1295CD9D1002279AB /* Build configuration list for PBXNativeTarget "STM32VideoToolkitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB487AE2295CD9D1002279AB /* Debug */,
+				AB487AE3295CD9D1002279AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ABA58EC92A15833400D9EC26 /* XCRemoteSwiftPackageReference "SynthVideo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HaydenMcCabe/SynthVideo";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ABA58ECA2A15833400D9EC26 /* SynthVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABA58EC92A15833400D9EC26 /* XCRemoteSwiftPackageReference "SynthVideo" */;
+			productName = SynthVideo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AB487AAE295CD9CF002279AB /* Project object */;
+}
