@@ -58,7 +58,7 @@ struct ImageSequenceExportView: View {
                         isExporting = true
                         Task.detached(priority: .background) {
                             do {
-                                try video.exportImageSequence(outputFolder: exportFolder!, baseFilename: baseFileName, colors: [color])
+                                try await video.exportImageSequence(outputFolder: exportFolder!, baseFilename: baseFileName, colors: [color])
                                 DispatchQueue.main.async {
                                     isExporting = false
                                     dismiss()
@@ -79,7 +79,7 @@ struct ImageSequenceExportView: View {
                         Task.detached(priority: .background) {
                             do {
                                 
-                                try video.exportImageSequence(outputFolder: exportFolder!, baseFilename: baseFileName, colors: [cgRed, cgGreen, cgBlue, cgCyan, cgMagenta, cgYellow, cgWhite])
+                                try await video.exportImageSequence(outputFolder: exportFolder!, baseFilename: baseFileName, colors: [cgRed, cgGreen, cgBlue, cgCyan, cgMagenta, cgYellow, cgWhite])
                                 DispatchQueue.main.async {
                                     isExporting = false
                                     dismiss()
